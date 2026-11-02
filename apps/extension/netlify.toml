@@ -1,0 +1,5 @@
+# The extension build (vite + @crxjs) writes its output to apps/extension/dist.
+# Paths are relative to the repository root (the site's base directory).
+[build]
+  command = "pnpm --filter postiz-extension... run build"
+  publish = "apps/extension/dist"
